@@ -261,6 +261,7 @@ class GitConnector(BaseConnector):
             # try to unescape escaped strings, if it can
             try:
                 file_data = ast.literal_eval('"{}"'.format(file_data))
+                file_data = file_data.encode()
             except Exception:
                 pass
 
