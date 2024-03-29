@@ -2,11 +2,11 @@
 # Git
 
 Publisher: Splunk  
-Connector Version: 3.0.0  
+Connector Version: 3.0.1  
 Product Vendor: Generic  
 Product Name: Git  
 Product Version Supported (regex): ".\*"  
-Minimum Product Version: 6.0.2  
+Minimum Product Version: 6.1.1  
 
 This app integrates with git and supports common git actions
 
